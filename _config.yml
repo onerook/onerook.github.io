@@ -22,6 +22,11 @@ dark_header: true            # always keep the header dark
 minimal: false               # use simpler style
 
 
+header_pages:
+  - about.md
+  - index.html
+  - software.md
+
 # Menu
 navigation:
   - {file: "about.md", icon: address-card}
