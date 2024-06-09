@@ -37,3 +37,5 @@ gem "kramdown-math-katex"
 # Bibliography support
 gem 'jekyll-scholar', group: :jekyll_plugins
 
+gem 'webrick'
+

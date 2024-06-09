@@ -1,12 +1,13 @@
 ---
-layout: default
-title: "Home"
+layout: page
+title: "About Me"
 ---
 
-<!-- {% if site.show_excerpts %}
-  {% include home.html %}
+{% assign about_page = site.pages | where: "path", "about.md" | first %}
+{% if about_page %}
+      {{ about_page.content }}
 {% else %}
   {% include archive.html title="Posts" %}
-{% endif %} -->
+{% endif %}
 
-{% include_relative about.md %}
+

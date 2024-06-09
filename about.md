@@ -2,7 +2,7 @@
 layout: page
 title: About
 comments: false
----
+--- 
 
 ![photo](/assets/photo.jpg){:style="float: right; width: 10em; height: 10em; margin-left: 2em; margin-bottom: 2em"}
 

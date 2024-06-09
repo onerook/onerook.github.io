@@ -1,0 +1,5 @@
+{% assign about_page = site.pages | where: "path", "../about.md" | first %}
+{% if about_page %}
+      {{ about_page.content }}
+{% endif %}
+
