@@ -1,6 +1,6 @@
-title: "Mayur Khadde"
-author: "Mayur Khadde"
-description: "Normal Protfolio about myself, projects and few blogs"
+title: "Piotr Kołaczkowski"
+author: "Piotr Kołaczkowski"
+description: "Blog on programming, optimization and performance analysis"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -21,27 +21,21 @@ show_title: true             # always keep the site title visible
 dark_header: true            # always keep the header dark
 minimal: false               # use simpler style
 
-
-header_pages:
-  - about.md
-  - index.html
-  - software.md
-
 # Menu
 navigation:
-  - {file: "about.md", icon: address-card}
   - {file: "index.html", icon: home}
+  - {file: "about.md", icon: address-card}
   - {file: "software.md", icon: cube}
 
 external:                    # see http://fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:mayurkhadde49@gmail.com"}
-  - {title: Github, icon: github, url: "https://github.com/bashlogs"}
-  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/mayurkhadde"}
+  - {title: Mail, icon: envelope, url: "mailto:pkolaczk@gmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/pkolaczk"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/pkolaczk"}
   - {title: RSS, icon: rss, url: "/feed.xml"}
 
 comments:
   disqus: true
-  disqus_shortname: Mayur        # see https://disqus.com/
+  disqus_shortname: pkolaczk        # see https://disqus.com/
 
 
 plugins: 
