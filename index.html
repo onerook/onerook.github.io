@@ -3,11 +3,6 @@ layout: page
 title: "About Me"
 ---
 
-{% assign about_page = site.pages | where: "path", "about.md" | first %}
-{% if about_page %}
-      {{ about_page.content }}
-{% else %}
-  {% include archive.html title="Posts" %}
-{% endif %}
-
-
+{% assign about_page = site.pages | where: "path", "about1.md" | first %} {% if
+about_page %} {{ about_page.content }} {% else %} {% include archive.html
+title="Posts" %} {% endif %}
